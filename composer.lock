@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d37d4e342c9d1a5ba97cef1e352db943",
+    "packages": [
+        {
+            "name": "ninvfeng/mongodb",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ninvfeng/mongodb.git",
+                "reference": "773ff72aa75c27f766cf5ec7803db184c3dbbe43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/ninvfeng/mongodb/773ff72aa75c27f766cf5ec7803db184c3dbbe43.zip",
+                "reference": "773ff72aa75c27f766cf5ec7803db184c3dbbe43",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ninvfeng\\mongodb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ninvfeng",
+                    "email": "ninvfeng@qq.com"
+                }
+            ],
+            "description": "一个简单php7 mongodb数据库操作类",
+            "keywords": [
+                "mongodb",
+                "php"
+            ],
+            "time": "2018-02-01T01:42:47+00:00"
+        },
+        {
+            "name": "ninvfeng/mysql",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ninvfeng/mysql.git",
+                "reference": "e04110faaf82194e5db8593a9a7e03b3cea18440"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/ninvfeng/mysql/e04110faaf82194e5db8593a9a7e03b3cea18440.zip",
+                "reference": "e04110faaf82194e5db8593a9a7e03b3cea18440",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ninvfeng\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ninvfeng",
+                    "email": "ninvfeng@qq.com"
+                }
+            ],
+            "description": "一个简单PDO mysql数据库操作类",
+            "keywords": [
+                "mysql",
+                "php"
+            ],
+            "time": "2018-02-03T03:48:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ninvfeng/mongodb": 20,
+        "ninvfeng/mysql": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}

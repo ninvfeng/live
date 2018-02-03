@@ -1,0 +1,23 @@
+{
+    "name": "ninvfeng/live",
+    "description": "live php 简洁高效的PHP框架",
+    "license":"MIT",
+    "version":"1.0",
+    "keywords" : [ "php" ],
+    "authors": [
+        {
+            "name": "ninvfeng",
+            "email": "ninvfeng@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ninvfeng/mongodb":"dev-develop",
+        "ninvfeng/mysql":"dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+
+        }
+    }
+}
