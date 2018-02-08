@@ -40,7 +40,7 @@ function debug($data){
     if(is_array($data)){
         $data=json_encode($data);
     }
-    return db('debug')->add(['data'=>$data,'created_at'=>date('Y-m-d H:i:s')]);
+    return db('debug')->insert(['data'=>$data,'created_at'=>date('Y-m-d H:i:s')]);
 }
 
 //http请求
