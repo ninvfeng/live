@@ -35,6 +35,17 @@ function db($table='null'){
     }
 }
 
+//快速实例化mongodb
+function mongodb($table='test'){
+    static $_mongodb=[];
+    if(!empty($_mongodb[$table])){
+        return $_mongodb[$table];
+    }else{
+        $_mongodb[$table]=new \ninvfeng\mongodb($table);
+        return $_mongodb[$table];
+    }
+}
+
 //调试函数, 将数据记录到debug表
 function debug($data){
     if(is_array($data)){

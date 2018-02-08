@@ -1,6 +1,0 @@
-[submodule "vendor/ninvfeng/mongodb"]
-	path = vendor/ninvfeng/mongodb
-	url = git@github.com:ninvfeng/mongodb.git
-[submodule "vendor/ninvfeng/mysql"]
-	path = vendor/ninvfeng/mysql
-	url = git@github.com:ninvfeng/mysql.git

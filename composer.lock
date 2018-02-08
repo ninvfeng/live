@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d37d4e342c9d1a5ba97cef1e352db943",
+    "content-hash": "e3ab67df5a5426020d797b2ce3e82913",
     "packages": [
         {
             "name": "ninvfeng/mongodb",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ninvfeng/mongodb.git",
-                "reference": "773ff72aa75c27f766cf5ec7803db184c3dbbe43"
+                "reference": "d39af963cd6b4585d3961fe98669a29e7e3342c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/ninvfeng/mongodb/773ff72aa75c27f766cf5ec7803db184c3dbbe43.zip",
-                "reference": "773ff72aa75c27f766cf5ec7803db184c3dbbe43",
+                "url": "https://files.phpcomposer.com/files/ninvfeng/mongodb/d39af963cd6b4585d3961fe98669a29e7e3342c8.zip",
+                "reference": "d39af963cd6b4585d3961fe98669a29e7e3342c8",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "ninvfeng\\mongodb\\": "src/"
+                    "ninvfeng\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -44,7 +44,7 @@
                 "mongodb",
                 "php"
             ],
-            "time": "2018-02-01T01:42:47+00:00"
+            "time": "2018-02-08T01:34:43+00:00"
         },
         {
             "name": "ninvfeng/mysql",
@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ninvfeng/mysql.git",
-                "reference": "e04110faaf82194e5db8593a9a7e03b3cea18440"
+                "reference": "8a91d4410985d9a7f2db3b31be1c811dae422062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/ninvfeng/mysql/e04110faaf82194e5db8593a9a7e03b3cea18440.zip",
-                "reference": "e04110faaf82194e5db8593a9a7e03b3cea18440",
+                "url": "https://files.phpcomposer.com/files/ninvfeng/mysql/8a91d4410985d9a7f2db3b31be1c811dae422062.zip",
+                "reference": "8a91d4410985d9a7f2db3b31be1c811dae422062",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "mysql",
                 "php"
             ],
-            "time": "2018-02-03T03:48:02+00:00"
+            "time": "2018-02-08T02:51:05+00:00"
         }
     ],
     "packages-dev": [],
