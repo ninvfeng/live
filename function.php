@@ -41,7 +41,7 @@ function mongodb($table='test'){
     if(!empty($_mongodb[$table])){
         return $_mongodb[$table];
     }else{
-        $_mongodb[$table]=new \ninvfeng\mongodb($table);
+        $_mongodb[$table]=new \ninvfeng\mongodb($table,config('mongodb'));
         return $_mongodb[$table];
     }
 }
