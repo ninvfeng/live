@@ -5,9 +5,9 @@ return [
     //数据库配置
     'mysql'=>[
         'host'=>'localhost',
-        'name'=>'ccphp',
-        'user'=>'ccphp',
-        'pass'=>'ccphp'
+        'name'=>'live',
+        'user'=>'root',
+        'pass'=>'root'
     ],
 
     //redis配置
@@ -19,7 +19,8 @@ return [
     //mongodb
     'mongodb'=>[
         'host'=>'localhost',
-        'port'=>'27017'
+        'port'=>'27017',
+        'name'=>'live'
     ],
 
 ];

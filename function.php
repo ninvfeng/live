@@ -35,6 +35,14 @@ function db($table='null'){
     }
 }
 
+//调试函数, 将数据记录到debug表
+function debug($data){
+    if(is_array($data)){
+        $data=json_encode($data);
+    }
+    return db('debug')->add(['data'=>$data,'created_at'=>date('Y-m-d H:i:s')]);
+}
+
 //http请求
 function http($url, $params = array(), $method = 'GET', $ssl = false){
     $opts = array(

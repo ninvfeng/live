@@ -3,6 +3,7 @@ namespace app\controller;
 class index{
 
     public function index(){
-        echo "Hello live php";
+        $res=debug('hello world');
+        dump($res);
     }
 }

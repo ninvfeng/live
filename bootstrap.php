@@ -7,7 +7,7 @@ class bootstrap{
     static public function run(){
 
         //解析路由
-        $path=$_SERVER['REQUEST_URI'];
+        $path=$_SERVER['REQUEST_URI']=='/'?'index/index':$_SERVER['REQUEST_URI'];
         $path=str_replace('index.php','',trim($path));
         if(strstr($path,'?'))
             $path=trim(strstr($path,'?',true),'/');
