@@ -3,7 +3,7 @@ namespace app\controller;
 class index{
 
     public function index(){
-        $res=mongodb('hello')->where(['name'=>'ninvfeng1'])->delete();
+        $res=mongodb('user')->insert(['username'=>'ninvfeng','password'=>'goodluck2018']);
         dump($res);
     }
 }
