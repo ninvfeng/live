@@ -26,13 +26,28 @@ function config($key=''){
 
 //数据库操作快捷方式
 function db($table='null'){
-    static $_db=[];
-    if($_db[$table]){
-        return $_db[$table];
-    }else{
-        $_db[$table]=new \ninvfeng\mysql($table,config('mysql'));
-        return $_db[$table];
+    static $_db;
+    if(!$_db){
+        $_db=new \ninvfeng\mysql(config('mysql'));
     }
+    return $_db->table($table);
+}
+
+//快速实例化mongodb
+function mongodb($table='test'){
+    static $_mongodb;
+    if(!$_mongodb){
+        $_mongodb=new \ninvfeng\mongodb(config('mongodb'));
+    }
+    return $_mongodb->table($table);
+}
+
+//调试函数, 将数据记录到debug表
+function debug($data){
+    if(is_array($data)){
+        $data=json_encode($data);
+    }
+    return db('debug')->insert(['data'=>$data,'created_at'=>date('Y-m-d H:i:s')]);
 }
 
 //实例化验证器

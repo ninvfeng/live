@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4052c7d7307dcf611cb1617b55fbcf0",
+    "content-hash": "e3ab67df5a5426020d797b2ce3e82913",
     "packages": [
         {
             "name": "ninvfeng/mongodb",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ninvfeng/mongodb.git",
-                "reference": "773ff72aa75c27f766cf5ec7803db184c3dbbe43"
+                "reference": "d39af963cd6b4585d3961fe98669a29e7e3342c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/ninvfeng/mongodb/773ff72aa75c27f766cf5ec7803db184c3dbbe43.zip",
-                "reference": "773ff72aa75c27f766cf5ec7803db184c3dbbe43",
+                "url": "https://files.phpcomposer.com/files/ninvfeng/mongodb/d39af963cd6b4585d3961fe98669a29e7e3342c8.zip",
+                "reference": "d39af963cd6b4585d3961fe98669a29e7e3342c8",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "ninvfeng\\mongodb\\": "src/"
+                    "ninvfeng\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -44,7 +44,7 @@
                 "mongodb",
                 "php"
             ],
-            "time": "2018-02-01T01:42:47+00:00"
+            "time": "2018-02-08T01:34:43+00:00"
         },
         {
             "name": "ninvfeng/mysql",
@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ninvfeng/mysql.git",
-                "reference": "e04110faaf82194e5db8593a9a7e03b3cea18440"
+                "reference": "8a91d4410985d9a7f2db3b31be1c811dae422062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/ninvfeng/mysql/e04110faaf82194e5db8593a9a7e03b3cea18440.zip",
-                "reference": "e04110faaf82194e5db8593a9a7e03b3cea18440",
+                "url": "https://files.phpcomposer.com/files/ninvfeng/mysql/8a91d4410985d9a7f2db3b31be1c811dae422062.zip",
+                "reference": "8a91d4410985d9a7f2db3b31be1c811dae422062",
                 "shasum": ""
             },
             "require": {
@@ -84,44 +84,7 @@
                 "mysql",
                 "php"
             ],
-            "time": "2018-02-03T03:48:02+00:00"
-        },
-        {
-            "name": "topthink/think-validate",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/top-think/think-validate.git",
-                "reference": "2fd2f1305b0d013f235679bfcb398a37d400b0e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/top-think/think-validate/2fd2f1305b0d013f235679bfcb398a37d400b0e5.zip",
-                "reference": "2fd2f1305b0d013f235679bfcb398a37d400b0e5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "think\\": "src"
-                },
-                "files": []
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "liu21st",
-                    "email": "liu21st@gmail.com"
-                }
-            ],
-            "description": "think validate",
-            "time": "2017-11-17T03:58:39+00:00"
+            "time": "2018-02-08T02:51:05+00:00"
         }
     ],
     "packages-dev": [],
