@@ -13,7 +13,8 @@
     "require": {
         "php": ">=7.0.0",
         "ninvfeng/mongodb":"dev-develop",
-        "ninvfeng/mysql":"dev-develop"
+        "ninvfeng/mysql":"dev-develop",
+        "topthink/think-validate": "^1.0"
     },
     "autoload": {
         "psr-4": {
