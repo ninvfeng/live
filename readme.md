@@ -11,7 +11,7 @@
 [ninvfeng/mongodb](https://github.com/ninvfeng/mongodb)
 
 ## 集成数据验证
-['think-validate'](https://github.com/top-think/think-validate)
+[think-validate](https://github.com/top-think/think-validate)
 
 ## 封装get和post方法快速获取并验证请求参数
 - $id=get('id','require','请输入ID');
